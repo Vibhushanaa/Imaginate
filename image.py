@@ -7,7 +7,7 @@ def get_img_as_base64(file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-img = get_img_as_base64("E:\Workspace Python\GenAI\BGI.jpg")
+img = get_img_as_base64("https://github.com/Vibhushanaa/Imaginate/blob/main/BGI.jpg")
 
 page_bg_img = f"""
 
